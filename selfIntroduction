@@ -1,0 +1,9 @@
+checklogin。jsp
+
+<%@page import="java.sql"%>
+<%page language="java" import="java.util.*" pageEncoding="utf-8"%>
+
+ String username=new String(request.getParameter("username").getBytes("ISO8859_1"),"GBK"); 
+
+
+JDBC连接使用
