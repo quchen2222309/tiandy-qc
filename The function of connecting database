@@ -1,0 +1,7 @@
+1.jsp直接连接%><%
+
+2.jdbc连接，需要加入MYSQL的jar包
+
+3.action送到servlet，doget或者dopost获取，数据库连接，response返回 不同页面
+
+4.xhrget的url目的地址servlet，同上或者json相关，from和to互转
